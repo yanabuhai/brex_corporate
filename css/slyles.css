@@ -1,0 +1,188 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0 auto;
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+/* -------------------------header---------------------------- */
+.header {
+}
+
+.container {
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 24px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-logo {
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 38px;
+}
+
+.header-nav-item {
+}
+
+.header-nav-link {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #212121;
+}
+
+.header-sign-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.header-sign-list {
+  display: flex;
+  gap: 38px;
+  padding-right: 29px;
+}
+
+.header-sign-item {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #212121;
+}
+
+.header-sign-button {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #fff;
+  border: 1px solid #f46a35;
+  border-radius: 10px;
+  width: 148px;
+  height: 36px;
+  background-color: #f46a35;
+}
+
+/* -------------------------------------------------------- */
+
+/* ----------------------corporate-------------------------- */
+.corporate {
+  padding-left: 48px;
+}
+
+.corporate-container {
+  display: flex;
+}
+
+.corporate-wrap {
+}
+
+.corporate-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  color: #212121;
+  max-width: 494px;
+  padding-bottom: 23px;
+}
+
+.corporate-button-sales {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #fff;
+  border: 1px solid #f46a35;
+  border-radius: 10px;
+  width: 160px;
+  height: 48px;
+  background-color: #f46a35;
+  padding-right: 8px;
+}
+
+.corporate-button-open {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #212121;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 160px;
+  height: 48px;
+  background-color: #fff;
+}
+
+.corporate-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  color: #212121;
+  padding-bottom: 9px;
+}
+
+.corporate-text {
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.02em;
+  color: #212121;
+  padding-bottom: 7px;
+}
+
+.corporate-link {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f46a35;
+}
+
+.corporate-images {
+}
+
+/* --------------------------------------------------------- */
