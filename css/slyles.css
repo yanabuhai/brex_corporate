@@ -43,7 +43,6 @@ img {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 16px;
 }
 /* -------------------------header---------------------------- */
 .header {
@@ -116,7 +115,7 @@ img {
 
 /* ----------------------corporate-------------------------- */
 .corporate {
-  padding-left: 48px;
+  padding-left: 24px;
 }
 
 .corporate-container {
@@ -213,10 +212,13 @@ img {
 /* --------------------------solution------------------------------- */
 
 .solution-section {
+  padding-top: 160px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 72px;
 }
 
 .solution-title {
-  margin-top: 160px;
   margin-bottom: 8px;
   font-weight: 400;
   font-size: 36px;
@@ -238,6 +240,7 @@ img {
 
 .solution-list {
   display: flex;
+  gap: 8px;
 }
 
 .solution-item-enterprise {
@@ -312,6 +315,51 @@ img {
 
 .solution-image-startups {
   margin-bottom: auto;
+}
+
+/* --------------------------------------------------------- */
+/* ---------------------------budget------------------------------ */
+
+.budget-section {
+  background-color: #f9f9f9;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top: 95px;
+  padding-bottom: 80px;
+}
+
+.budget-title {
+  margin-bottom: 21px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.44;
+  letter-spacing: 0.04em;
+  color: #212121;
+}
+
+.budget-text {
+  margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  color: #212121;
+  max-width: 850px;
+}
+
+.budget-link {
+  border: 1px solid #212121;
+  border-radius: 10px;
+  width: 203px;
+  height: 48px;
+  font-size: 14px;
+  line-height: 1.57143;
+  color: #212121;
+  padding: 12px 21px;
+}
+
+.budget-img {
+  border-radius: 15px;
+  margin-top: 40px;
 }
 
 /* --------------------------------------------------------- */
