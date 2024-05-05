@@ -133,7 +133,7 @@ img {
   letter-spacing: 0.04em;
   color: #212121;
   max-width: 494px;
-  padding-bottom: 23px;
+  margin-bottom: 23px;
 }
 
 .corporate-button-sales {
@@ -145,7 +145,7 @@ img {
   width: 160px;
   height: 48px;
   background-color: #f46a35;
-  padding-right: 8px;
+  margin-right: 8px;
 }
 
 .corporate-button-open {
@@ -165,7 +165,7 @@ img {
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #212121;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .corporate-text {
@@ -173,7 +173,7 @@ img {
   line-height: 1.43;
   letter-spacing: 0.02em;
   color: #212121;
-  padding-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 .corporate-link {
@@ -183,6 +183,135 @@ img {
 }
 
 .corporate-images {
+}
+
+/* --------------------------------------------------------- */
+
+/* ---------------------------application------------------------------ */
+
+.application-section {
+  padding-top: 80px;
+  padding-bottom: 48px;
+}
+
+.application-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+
+.application-item {
+}
+
+.application-image {
+}
+
+/* --------------------------------------------------------- */
+
+/* --------------------------solution------------------------------- */
+
+.solution-section {
+}
+
+.solution-title {
+  margin-top: 160px;
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.44;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #212121;
+}
+
+.solution-text {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.68;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 48px;
+}
+
+.solution-list {
+  display: flex;
+}
+
+.solution-item-enterprise {
+  background-image: url(../images/background-solution-1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 580px;
+  height: 641px;
+  margin: 0 auto;
+}
+
+.solution-item-startups {
+  background-image: url(../images/background-solution-2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 580px;
+  height: 641px;
+  margin: 0 auto;
+}
+
+.solution-subtitle {
+  margin-top: 48px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.solution-subtitle.startups {
+  color: #212121;
+}
+
+.solution-subtitle-text {
+  max-width: 476px;
+  padding-bottom: 22px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.solution-subtitle-text.startups {
+  color: #212121;
+}
+
+.solution-button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 160px;
+  height: 48px;
+  background-color: transparent;
+  display: block;
+  margin: auto;
+}
+
+.solution-button.startups {
+  border: 1px solid #212121;
+  color: #212121;
+}
+
+.solution-image-startups {
+  margin-bottom: auto;
 }
 
 /* --------------------------------------------------------- */
