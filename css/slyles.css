@@ -3,6 +3,7 @@ body {
   color: #434455;
   background-color: #ffffff;
   text-decoration: none;
+  color: #212121;
 }
 
 p,
@@ -97,7 +98,6 @@ img {
   line-height: 1.43;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #212121;
 }
 
 .header-sign-button {
@@ -130,7 +130,6 @@ img {
   font-size: 40px;
   line-height: 1.3;
   letter-spacing: 0.04em;
-  color: #212121;
   max-width: 494px;
   margin-bottom: 23px;
 }
@@ -150,7 +149,6 @@ img {
 .corporate-button-open {
   font-size: 14px;
   line-height: 1.57;
-  color: #212121;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   width: 160px;
@@ -163,7 +161,6 @@ img {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #212121;
   margin-bottom: 9px;
 }
 
@@ -171,7 +168,6 @@ img {
   font-size: 14px;
   line-height: 1.43;
   letter-spacing: 0.02em;
-  color: #212121;
   margin-bottom: 7px;
 }
 
@@ -225,7 +221,6 @@ img {
   line-height: 1.44;
   letter-spacing: 0.04em;
   text-align: center;
-  color: #212121;
 }
 
 .solution-text {
@@ -234,7 +229,6 @@ img {
   line-height: 1.68;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #212121;
   margin-bottom: 48px;
 }
 
@@ -334,7 +328,6 @@ img {
   font-size: 36px;
   line-height: 1.44;
   letter-spacing: 0.04em;
-  color: #212121;
 }
 
 .budget-text {
@@ -342,7 +335,6 @@ img {
   font-size: 20px;
   line-height: 1.6;
   letter-spacing: 0.02em;
-  color: #212121;
   max-width: 850px;
 }
 
@@ -353,13 +345,95 @@ img {
   height: 48px;
   font-size: 14px;
   line-height: 1.57143;
-  color: #212121;
   padding: 12px 21px;
+  color: #212121;
 }
 
 .budget-img {
   border-radius: 15px;
   margin-top: 40px;
+}
+
+/* --------------------------------------------------------- */
+/* --------------------------doordash------------------------------- */
+.doordash-section {
+  padding-top: 251px;
+  padding-bottom: 227px;
+}
+
+.doordash-image {
+  display: block;
+  margin: auto;
+}
+
+.doordash-text {
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 1.09;
+  text-align: center;
+  margin-top: 49px;
+  margin-bottom: 48px;
+  max-width: 673px;
+}
+
+.doordash-text::before {
+  width: 50px;
+  height: 20px;
+  background-color: #212121;
+  margin-right: 166px;
+}
+
+.doordash-second-text {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+/* --------------------------------------------------------- */
+/* -----------------------------brex---------------------------- */
+
+.brex-section {
+  padding-top: 25px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+.brex-title {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  max-width: 687px;
+  margin-bottom: 79px;
+}
+
+.brex-list {
+  display: flex;
+  gap: 64px;
+}
+
+.brex-item {
+}
+
+.brex-image {
+  margin-bottom: 26px;
+}
+
+.brex-text {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.02em;
+  margin-bottom: 22px;
+  width: 325px;
+}
+
+.brex-link {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f46a35;
 }
 
 /* --------------------------------------------------------- */
