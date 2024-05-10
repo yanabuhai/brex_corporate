@@ -23,13 +23,35 @@
     <header class="container header">
       <div class="header-wrap">
         <nav class="header-nav">
-          <a class="header-nav-logo" href=""></a>
+          <a class="header-nav-logo" href="">
+            <svg class="header-logo-svg">
+              <use
+                href="./images/icons-svg.svg#icon-Frame"
+                width="78"
+                height="20"
+              ></use>
+            </svg>
+          </a>
           <ul class="header-nav-list">
             <li class="header-nav-item">
-              <a class="header-nav-link" href="">Solutions</a>
+              <a class="header-nav-link" href="#solutions">Solutions</a>
+              <svg class="header-nav-svg">
+                <use
+                  href="./images/icons-svg.svg#icon-Group"
+                  width="13"
+                  height="9"
+                ></use>
+              </svg>
             </li>
             <li class="header-nav-item">
-              <a class="header-nav-link" href="">Products</a>
+              <a class="header-nav-link" href="#products">Products</a>
+              <svg class="header-nav-svg">
+                <use
+                  href="./images/icons-svg.svg#icon-Group"
+                  width="13"
+                  height="9"
+                ></use>
+              </svg>
             </li>
             <li class="header-nav-item">
               <a class="header-nav-link" href="">Why Brex?</a>
@@ -38,7 +60,14 @@
               <a class="header-nav-link" href="">Empower</a>
             </li>
             <li class="header-nav-item">
-              <a class="header-nav-link" href="">Resources</a>
+              <a class="header-nav-link" href="#resources">Resources</a>
+              <svg class="header-nav-svg">
+                <use
+                  href="./images/icons-svg.svg#icon-Group"
+                  width="13"
+                  height="9"
+                ></use>
+              </svg>
             </li>
           </ul>
         </nav>
@@ -96,8 +125,6 @@
               class="application-image"
               src="./images/section-image-1.jpeg"
               alt=""
-              width=""
-              height="24"
             />
           </li>
           <li class="application-item">
@@ -105,8 +132,6 @@
               class="application-image"
               src="./images/section-image-2.jpeg"
               alt=""
-              width=""
-              height="24"
             />
           </li>
           <li class="application-item">
@@ -114,8 +139,6 @@
               class="application-image"
               src="./images/section-image-3.jpeg"
               alt=""
-              width=""
-              height="24"
             />
           </li>
           <li class="application-item">
@@ -123,8 +146,6 @@
               class="application-image"
               src="./images/section-image-4.jpeg"
               alt=""
-              width=""
-              height="24"
             />
           </li>
           <li class="application-item">
@@ -132,8 +153,6 @@
               class="application-image"
               src="./images/section-image-5.jpeg"
               alt=""
-              width=""
-              height="24"
             />
           </li>
           <li class="application-item">
@@ -141,8 +160,6 @@
               class="application-image"
               src="./images/section-image-6.jpeg"
               alt=""
-              width=""
-              height="24"
             />
           </li>
           <li class="application-item">
@@ -150,8 +167,6 @@
               class="application-image"
               src="./images/section-image-7.jpeg"
               alt=""
-              width=""
-              height="24"
             />
           </li>
           <li class="application-item">
@@ -159,13 +174,11 @@
               class="application-image"
               src="./images/section-image-8.jpeg"
               alt=""
-              width=""
-              height="24"
             />
           </li>
         </ul>
       </section>
-      <section class="container solution-section">
+      <section class="container solution-section" id="solutions">
         <h2 class="solution-title">Solutions that work for you.</h2>
         <p class="solution-text">
           Brex meets you where you are — and takes you where you want to go.
@@ -222,10 +235,12 @@
           src="./images/section-image-2.jpeg"
           alt=""
         />
-        <p class="doordash-text">
-          "DoorDash went from a 100-person startup to over 9,000 employees. We
-          needed a solution that was innovative in the T&E space."
-        </p>
+        <div class="doordash-wrap">
+          <p class="doordash-text">
+            "DoorDash went from a 100-person startup to over 9,000 employees. We
+            needed a solution that was innovative in the T&E space."
+          </p>
+        </div>
         <p class="doordash-second-text">— Mike Kim, VP of Finance, DoorDash</p>
       </section>
       <section class="container brex-section">
@@ -277,7 +292,262 @@
           </li>
         </ul>
       </section>
+      <section class="container magazine-section">
+        <ul class="magazine-list">
+          <li class="magazine-item">
+            <img class="magazine-image" src="./images/magazine-1.png" alt="" />
+          </li>
+          <li class="magazine-item">
+            <img class="magazine-image" src="./images/magazine-2.png" alt="" />
+          </li>
+          <li class="magazine-item">
+            <img class="magazine-image" src="./images/magazine-3.png" alt="" />
+          </li>
+          <li class="magazine-item">
+            <img class="magazine-image" src="./images/magazine-4.png" alt="" />
+          </li>
+        </ul>
+      </section>
+      <section class="container contact-section">
+        <div class="contact-wrap">
+          <h2 class="contact-title">See what Brex can do for you.</h2>
+          <p class="contact-text">
+            Get in touch to learn how our spend solution can increase financial
+            efficiency and speed for your company.
+          </p>
+          <div class="contact-btn-wrap">
+            <button class="contact-btn-sales" type="button">
+              Contact sales
+            </button>
+            <button class="contact-btn-open" type="button">
+              Open an account
+            </button>
+          </div>
+        </div>
+        <img
+          class="contact-image"
+          src="./images/contact-1x.png"
+          alt=""
+          width="552"
+          height="451"
+        />
+      </section>
     </main>
-    <footer></footer>
+    <footer class="container footer">
+      <div class="footer-wrap">
+        <a class="footer-logo" href="">
+          <svg class="footer-logo-svg">
+            <use
+              href="./images/icons-svg.svg#icon-Frame"
+              width="78"
+              height="20"
+            ></use>
+          </svg>
+        </a>
+        <div class="footer-list-wrap">
+          <h3 class="footer-title" id="products">Product</h3>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="">Overview</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Business account</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Credit card</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Rewards</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Financial modeling</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Expense tracking</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Spend management</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Bill pay</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Integrations</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Brex API</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Pro access</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Security</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-list-wrap">
+          <h3 class="footer-title">Company</h3>
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a class="footer-link" href="">About Brex</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Careers</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Contact</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Press</a>
+            </li>
+            <li class="footer-item"><a class="footer-link" href="">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-list-wrap">
+          <h3 class="footer-title" id="resources">Resources</h3>
+          <ul class="footer-list">
+            <li class="footer-item"><a class="footer-link" href="">Help</a></li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Status</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Privacy</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Legal agreement</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer-link" href="">Cookie preferences</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-svg-wrap">
+        <div class="footer-svg-list-wrap">
+          <ul class="footer-svg-list">
+            <li class="footer-svg-item">
+              <a class="footer-svg-soc-link">
+                <svg class="footer-svg-soc">
+                  <use
+                    href="./images/icons-svg.svg#icon-facebook"
+                    width="16"
+                    height="16"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-svg-item">
+              <a class="footer-svg-soc-link">
+                <svg class="footer-svg-soc">
+                  <use
+                    href="./images/icons-svg.svg#icon-youtube"
+                    width="16"
+                    height="16"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-svg-item">
+              <a class="footer-svg-soc-link">
+                <svg class="footer-svg-soc">
+                  <use
+                    href="./images/icons-svg.svg#icon-instagram"
+                    width="16"
+                    height="16"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-svg-item">
+              <a class="footer-svg-soc-link">
+                <svg class="footer-svg-soc">
+                  <use
+                    href="./images/icons-svg.svg#icon-linkedin"
+                    width="16"
+                    height="16"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-svg-item">
+              <a class="footer-svg-soc-link">
+                <svg class="footer-svg-soc">
+                  <use
+                    href="./images/icons-svg.svg#icon-twitter"
+                    width="16"
+                    height="16"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-img-wrap">
+          <ul class="footer-img-list">
+            <li class="footer-img-item">
+              <img
+                class=".footer-img-app"
+                srcset="./images/appstore.png 1x, ./images/appstore-2x.png 2x"
+                src="./images/appstore.png"
+                alt=""
+                width="81"
+                height="24"
+              />
+            </li>
+            <li class="footer-img-item">
+              <img
+                class=".footer-img-app"
+                srcset="
+                  ./images/googleplay.png    1x,
+                  ./images/googleplay-2x.png 2x
+                "
+                src="./images/googleplay.png"
+                alt=""
+                width="81"
+                height="24"
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-wrap-text">
+        <p class="footer-text">
+          ©2022 Brex Inc. (“Brex”) and the Brex logo are registered trademarks.
+          Brex Inc. provides the Brex Mastercard® Corporate Credit Card, issued
+          by Emigrant Bank, Member FDIC or Fifth Third Bank, NA., Member FDIC.
+          Use of Brex’s user data access application programming interfaces is
+          subject to the Brex Access Agreement . Use of Brex Empower and other
+          Brex products is subject to the Platform Agreement. Brex Treasury LLC
+          (“Brex Treasury”) is an affiliate of Brex and a member of FINRA and
+          SIPC that provides Brex Cash, an account that allows customers to
+          sweep uninvested cash balances into certain money market mutual funds
+          or FDIC-insured bank accounts at Brex’s partner banks, such as
+          JPMorgan Chase Bank, Member FDIC. A list of partner banks is available
+          at https://www.brex.com/legal. Investing in securities products
+          involves risk and you could lose money. Brex Treasury is not a bank
+          nor an investment adviser and your Brex Cash account is not an
+          FDIC-insured bank account. *Your account earns yield on an annual
+          basis. The figure shown here is an estimate of the annualized yield
+          based on the average performance of the past seven days.* Yield is
+          variable and fluctuates. Carefully consider a fund's investment
+          objectives, risks, charges and expenses, as described in the
+          applicable mutual fund’s prospectus. Contact us for a copy of the fund
+          prospectus. Past performance does not guarantee future results, which
+          may vary. SIPC currently protects the assets in each of your
+          securities accounts at Brex Treasury up to $500,000 (including
+          $250,000 for claims for cash). Please see https://www.sipc.org/ . This
+          is not an offer, solicitation of an offer, recommendation or advice to
+          buy or sell any security, financial product, instrument or to open a
+          brokerage account in any jurisdiction where Brex Treasury is not
+          registered. Review the background of Brex Treasury or its investment
+          professionals on FINRA's BrokerCheck website . Please visit the
+          Deposit Sweep Program Disclosure Statement for important legal
+          disclosures. Brex does not provide, nor does it guarantee, any
+          third-party product, service, information, or recommendation and may
+          pay third parties and/or be paid by them for customer referrals.
+          Services may be provided by Brex Payments LLC (NMLS #2035354).
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

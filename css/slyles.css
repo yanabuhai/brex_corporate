@@ -66,6 +66,12 @@ img {
 .header-nav-logo {
 }
 
+.header-logo-svg {
+  width: 78px;
+  height: 20px;
+  margin-right: 29px;
+}
+
 .header-nav-list {
   display: flex;
   gap: 38px;
@@ -80,6 +86,11 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #212121;
+}
+
+.header-nav-svg {
+  width: 13px;
+  height: 9px;
 }
 
 .header-sign-wrap {
@@ -436,4 +447,182 @@ img {
   color: #f46a35;
 }
 
+/* --------------------------------------------------------- */
+/* ---------------------------budget------------------------------ */
+.magazine-section {
+  padding-top: 81px;
+  padding-bottom: 161px;
+}
+
+.magazine-list {
+  display: flex;
+  justify-content: center;
+}
+
+.magazine-item {
+  width: 275px;
+  height: 200px;
+  border: 1px solid #8e8f99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.magazine-image {
+}
+/* --------------------------------------------------------- */
+/* -----------------------contact---------------------------- */
+.contact-section {
+  padding: 0 48px;
+  display: flex;
+  border: 1px solid #000;
+  background-color: #f9f9f9;
+}
+
+.contact-wrap {
+}
+
+.contact-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  margin-top: 110px;
+  margin-bottom: 27px;
+}
+
+.contact-text {
+  font-size: 20px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+  margin-bottom: 20px;
+}
+
+.contact-btn-wrap {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 110px;
+}
+
+.contact-btn-sales {
+  font-size: 14px;
+  line-height: 1.57;
+  border: 1px solid #f46a35;
+  border-radius: 10px;
+  width: 160px;
+  height: 48px;
+  background-color: #f46a35;
+}
+
+.contact-btn-open {
+  font-size: 14px;
+  line-height: 1.57;
+  border: 1px solid #212121;
+  border-radius: 10px;
+  width: 160px;
+  height: 48px;
+}
+
+.contact-image {
+}
+
+/* --------------------------------------------------------- */
+/* ---------------------footer------------------------------ */
+
+.footer {
+  background-color: #171717;
+  padding-top: 120px;
+  padding-left: 48px;
+  padding-right: 242px;
+  padding-bottom: 121px;
+}
+
+.footer-wrap {
+  display: flex;
+}
+
+.footer-logo {
+}
+
+.footer-logo-svg {
+}
+
+.footer-list-wrap {
+}
+
+.footer-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 7px;
+  margin-right: 198px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.footer-item {
+}
+
+.footer-link {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #bcbdbd;
+}
+
+.footer-svg-wrap {
+  padding-top: 101px;
+  padding-bottom: 135px;
+  display: flex;
+}
+
+.footer-svg-list-wrap {
+  margin-right: 192px;
+}
+
+.footer-svg-list {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-svg-item {
+}
+
+.footer-svg-soc-link {
+}
+
+.footer-svg-soc {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-img-wrap {
+}
+
+.footer-img-list {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-img-item {
+}
+
+.footer-img-app {
+}
+
+.footer-wrap-text {
+}
+
+.footer-text {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.02em;
+  color: #bcbdbd;
+}
 /* --------------------------------------------------------- */
